@@ -2,6 +2,7 @@ import { Server, Socket } from "socket.io";
 import jwt from 'jsonwebtoken';
 import { config } from '../config/env'
 import { ChatMessage } from "../interfaces/chatMessage";
+import logger from "../utils/logger";
 
 export function setupSocket(io: Server) {
     io.use((socket: Socket, next) => {
@@ -19,11 +20,11 @@ export function setupSocket(io: Server) {
     });
 
     io.on('connection', (socket: Socket) => {
-        console.log('New client connected:', socket.id, 'User:', socket.data.user.username);
+        logger.info(`New client connected: ${socket.id}, User: ${socket.data.user.username}`);
 
         socket.on('joinRoom', (roomId: string) => {
             socket.join(roomId);
-            console.log(`User ${socket.data.user.username} joined room ${roomId}`);
+            logger.info(`User ${socket.data.user.username} joined room ${roomId}`);
         });
 
         socket.on('chatMessage', ({ roomId, message }: ChatMessage) => {
@@ -35,7 +36,7 @@ export function setupSocket(io: Server) {
         });
 
         socket.on('disconnect', () => {
-            console.log('cliente disconnected:', socket.id);
+            logger.info(`cliente disconnected: ${socket.id}`);
         });
     });
 }

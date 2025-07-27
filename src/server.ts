@@ -2,6 +2,8 @@ import { createServer } from 'http';
 import { Server } from 'socket.io';
 import app from './app';
 import { setupSocket } from './sockets/socket';
+import { config } from './config/env';
+import logger from './utils/logger';
 
 const server = createServer(app);
 const io = new Server(server, {
@@ -10,7 +12,6 @@ const io = new Server(server, {
 
 setupSocket(io);
 
-const PORT = process.env.PORT || 3000;
-server.listen(PORT, () => {
-    console.log(`Server Running on http://localhost:${PORT}`);
+server.listen(config.port, () => {
+    logger.info(`Server Running on http://localhost:${config.port}`);
 })

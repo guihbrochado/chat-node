@@ -1,10 +1,7 @@
 import express from 'express';
 import cors from 'cors';
-import dotenv from 'dotenv';
 import routes from './routes';
-import { setupSocket } from './sockets/socket';
-
-dotenv.config();
+import { config } from './config/env';
 
 const app = express();
 

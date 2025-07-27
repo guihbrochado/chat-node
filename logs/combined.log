@@ -1,0 +1,15 @@
+{"level":"info","message":"Server Running on http://localhost:3001","timestamp":"2025-07-27T16:49:54.130Z"}
+{"level":"info","message":"Server Running on http://localhost:3001","timestamp":"2025-07-27T17:13:08.684Z"}
+{"level":"info","message":"New client connected: 1elFYojP6IGPRfWXAAAB, User: testuser","timestamp":"2025-07-27T17:24:03.136Z"}
+{"level":"info","message":"New client connected: 3ngVs1NukM7GA0vKAAAD, User: testuser","timestamp":"2025-07-27T17:25:44.660Z"}
+{"level":"info","message":"cliente disconnected: 1elFYojP6IGPRfWXAAAB","timestamp":"2025-07-27T17:26:54.856Z"}
+{"level":"info","message":"New client connected: vJkAkD45cWyQCPH0AAAF, User: testuser","timestamp":"2025-07-27T17:26:54.909Z"}
+{"level":"info","message":"New client connected: G73NrSKauGfhim7NAAAH, User: testuser","timestamp":"2025-07-27T17:31:20.049Z"}
+{"level":"info","message":"cliente disconnected: G73NrSKauGfhim7NAAAH","timestamp":"2025-07-27T17:31:23.092Z"}
+{"level":"info","message":"cliente disconnected: vJkAkD45cWyQCPH0AAAF","timestamp":"2025-07-27T17:32:41.270Z"}
+{"level":"info","message":"New client connected: y-00zuNDL1_bNi6-AAAJ, User: testuser","timestamp":"2025-07-27T17:32:41.361Z"}
+{"level":"info","message":"User testuser joined room cfnywffi2ng","timestamp":"2025-07-27T17:32:44.052Z"}
+{"level":"info","message":"New client connected: 7PIxiWGq8PZRtyERAAAL, User: testuser","timestamp":"2025-07-27T17:33:06.566Z"}
+{"level":"info","message":"User testuser joined room cfnywffi2ng","timestamp":"2025-07-27T17:33:09.672Z"}
+{"level":"info","message":"New client connected: HVIQej_I5HF3ufaSAAAN, User: testuser","timestamp":"2025-07-27T17:34:40.130Z"}
+{"level":"info","message":"cliente disconnected: HVIQej_I5HF3ufaSAAAN","timestamp":"2025-07-27T17:35:14.958Z"}
