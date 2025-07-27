@@ -13,3 +13,10 @@
 {"level":"info","message":"User testuser joined room cfnywffi2ng","timestamp":"2025-07-27T17:33:09.672Z"}
 {"level":"info","message":"New client connected: HVIQej_I5HF3ufaSAAAN, User: testuser","timestamp":"2025-07-27T17:34:40.130Z"}
 {"level":"info","message":"cliente disconnected: HVIQej_I5HF3ufaSAAAN","timestamp":"2025-07-27T17:35:14.958Z"}
+{"level":"info","message":"cliente disconnected: 7PIxiWGq8PZRtyERAAAL","timestamp":"2025-07-27T18:45:59.141Z"}
+{"level":"info","message":"Server Running on http://localhost:3001","timestamp":"2025-07-27T18:52:39.129Z"}
+{"level":"info","message":"Server Running on http://localhost:3001","timestamp":"2025-07-27T19:00:14.391Z"}
+{"level":"info","message":"Server Running on http://localhost:3001","timestamp":"2025-07-27T19:02:18.939Z"}
+{"level":"info","message":"Server Running on http://localhost:3001","timestamp":"2025-07-27T19:02:31.503Z"}
+{"level":"info","message":"Server Running on http://localhost:3001","timestamp":"2025-07-27T19:02:33.994Z"}
+{"level":"info","message":"Server Running on http://localhost:3001","timestamp":"2025-07-27T19:02:50.853Z"}
